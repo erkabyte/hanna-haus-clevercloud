@@ -4,9 +4,14 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get("/pubsub", (req,res) 
-	=>{
+app.get("/", (req,res) => 
+{
+		res.send("hello");
+});
 
+app.get("/pubsub", (req,res) => 
+	{
+		
 	});
 
 app.post("/", (req,res) =>
