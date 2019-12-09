@@ -17,7 +17,7 @@ app.get("/pubsub", (req,res) =>
 app.post("/", (req,res) =>
 {
    ///console.log("")
-   req.send("post requested");
+   res.send("post requested");
 })
 
 
