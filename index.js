@@ -16,8 +16,9 @@ app.get("/pubsub", (req,res) =>
 
 app.post("/", (req,res) =>
 {
-
+   ///console.log("")
+   req.send("post requested");
 })
 
 
-app.listen(port, () => "app is listening on ${port}");
+app.listen(port, () => `app is listening on ${port}`);
